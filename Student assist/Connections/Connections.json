@@ -1,0 +1,30 @@
+{
+  "95efe64d-ac2f-4c01-97a3-3fc27ee8c942": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://pp08.sharepoint.com/sites/stuassist": {
+        "dataSources": {
+          "assignments": {
+            "tableName": "89602e51-12f8-4aa1-8a5d-8b80314b9491"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "assignments"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "95efe64d-ac2f-4c01-97a3-3fc27ee8c942"
+  }
+}
