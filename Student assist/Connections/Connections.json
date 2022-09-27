@@ -16,12 +16,16 @@
         "dataSources": {
           "assignments": {
             "tableName": "89602e51-12f8-4aa1-8a5d-8b80314b9491"
+          },
+          "classes": {
+            "tableName": "be5ba246-0745-4948-a53a-ea1ca1644a5d"
           }
         }
       }
     },
     "dataSources": [
-      "assignments"
+      "assignments",
+      "classes"
     ],
     "dependencies": {},
     "dependents": [],
