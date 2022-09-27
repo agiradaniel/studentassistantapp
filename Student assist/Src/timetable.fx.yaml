@@ -108,7 +108,7 @@ timetable As screen:
         TemplateSize: =Min(96, Self.Height - 60)
         Width: =237
         X: =577
-        Y: =280
+        Y: =279
         ZIndex: =5
 
         Title5_5 As label:
@@ -275,4 +275,17 @@ timetable As screen:
         X: =1097
         Y: =224
         ZIndex: =12
+
+    Label5 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =25
+        Text: ="Time Table"
+        Width: =242
+        X: =88
+        Y: =38
+        ZIndex: =13
 

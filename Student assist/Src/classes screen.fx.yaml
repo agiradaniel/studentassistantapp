@@ -37,3 +37,36 @@
         Y: =642
         ZIndex: =3
 
+    Label9 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =20
+        Text: ="Today"
+        X: =183
+        Y: =182
+        ZIndex: =4
+
+    Label10 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="You have"
+        X: =156
+        Y: =249
+        ZIndex: =5
+
+    Label11 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =96
+        Size: =13
+        Text: =Text(Now(), "dddd")
+        Width: =107
+        X: =343
+        Y: =384
+        ZIndex: =6
+
