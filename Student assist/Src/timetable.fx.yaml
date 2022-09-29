@@ -122,7 +122,7 @@ timetable As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =20
-            Text: =ThisItem.'17-20'
+            Text: =ThisItem.'10-13'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
