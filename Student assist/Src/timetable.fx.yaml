@@ -145,7 +145,7 @@ timetable As screen:
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(96, Self.Height - 60)
-        Width: =317
+        Width: =364
         X: =733
         Y: =280
         ZIndex: =6
@@ -200,7 +200,7 @@ timetable As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =20
-            Text: =ThisItem.'7-10'
+            Text: =ThisItem.'17-20'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
