@@ -38,13 +38,13 @@
         BorderColor: =RGBA(32, 54, 71, 1)
         DataSource: =assignments
         DefaultMode: =FormMode.New
-        Height: =456
+        Height: =472
         OnReset: =NewForm(Form1)
         OnSuccess: =Back()
         SnapToColumns: =false
-        Width: =512
-        X: =153
-        Y: =202
+        Width: =482
+        X: =115
+        Y: =208
         ZIndex: =5
 
         Description_DataCard1 As typedDataCard.textualEditCard:
@@ -59,7 +59,7 @@
             MaxLength: =DataSourceInfo([@assignments], DataSourceInfo.MaxLength, "Description")
             Required: =false
             Update: =DataCardValue1.Text
-            Width: =304
+            Width: =480
             X: =2
             Y: =0
             ZIndex: =1
@@ -99,7 +99,7 @@
                 RadiusTopRight: =0
                 Size: =13
                 Tooltip: =Parent.DisplayName
-                Width: =286
+                Width: =436
                 Y: =76
                 ZIndex: =2
 
@@ -186,7 +186,7 @@
                 RadiusTopRight: =0
                 Size: =13
                 Tooltip: =Parent.DisplayName
-                Width: =284
+                Width: =422
                 Y: =56
                 ZIndex: =2
 
@@ -216,10 +216,10 @@
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@assignments],DataSourceInfo.DisplayName,"Duedate")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =140
+            Height: =146
             Required: =false
             Update: =DataCardValue3.SelectedDate
-            Width: =318
+            Width: =480
             X: =1
             Y: =0
             ZIndex: =6
@@ -257,7 +257,7 @@
                 SelectedDateFill: =RGBA(100, 118, 132, 1)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =288
+                Width: =426
                 Y: =71
                 ZIndex: =2
 
@@ -318,7 +318,7 @@
         Size: =25
         Text: ="New assignment"
         Width: =304
-        X: =162
-        Y: =162
+        X: =112
+        Y: =139
         ZIndex: =7
 
