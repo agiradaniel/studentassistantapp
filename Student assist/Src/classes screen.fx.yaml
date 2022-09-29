@@ -8,63 +8,69 @@
         Width: =1366
         ZIndex: =1
 
-    "Gallery2 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+    "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         BorderColor: =RGBA(32, 54, 71, 1)
-        Height: =207
-        Items: =classes
+        Height: =191
+        Items: =If(Text(Now(), "dddd") = "Monday", Filter(classes, ID=1),Text(Now(), "dddd") = "Tuesday", Filter(classes, ID=2),Text(Now(), "dddd") = "Wednesday", Filter(classes, ID=3),Text(Now(), "dddd") = "Thursday", Filter(classes, ID=4),Text(Now(), "dddd") = "Friday", Filter(classes, ID=5))
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =207
-        X: =150
-        Y: =379
+        TemplateSize: =191
+        Width: =736
+        X: =152
+        Y: =342
         ZIndex: =1
 
-        Title7 As label:
+        Label20 As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =Self.Size * 1.8
+            Height: =36
             OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =20
-            Text: =ThisItem.ID
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =16
-            Y: =37
-            ZIndex: =1
+            Size: =13
+            Text: =ThisItem.'10-13'
+            Width: =112
+            X: =18
+            Y: =61
+            ZIndex: =4
 
-        NextArrow7 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
+        Label20_1 As label:
             BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(32, 54, 71, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =60
-            Icon: =Icon.ChevronRight
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =36
             OnSelect: =Select(Parent)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="View item details"
+            Size: =13
+            Text: =ThisItem.'14-17'
+            Width: =188
+            X: =18
+            Y: =135
+            ZIndex: =5
+
+        Label20_2 As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.'17-20'
             Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =2
+            X: =18
+            Y: =97
+            ZIndex: =6
 
-        Separator7 As rectangle:
+        Label20_3 As label:
             BorderColor: =RGBA(32, 54, 71, 1)
-            Fill: =RGBA(32, 54, 71, 1)
-            Height: =1
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =43
             OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - 1
-            ZIndex: =3
+            Size: =13
+            Text: =ThisItem.'7-10'
+            Width: =140
+            X: =18
+            Y: =4
+            ZIndex: =7
 
     Icon2 As icon.ChevronLeft:
         BorderColor: =RGBA(32, 54, 71, 1)

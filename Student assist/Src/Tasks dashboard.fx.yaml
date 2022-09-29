@@ -159,7 +159,7 @@
             Height: =34
             OnSelect: =Navigate('revision screen',ScreenTransition.Cover)
             Size: =16
-            Text: ="6"
+            Text: ="0"
             Width: =26
             X: =1242
             Y: =210
@@ -206,7 +206,7 @@
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =34
             Size: =16
-            Text: ="3"
+            Text: ="0"
             Width: =26
             X: =306
             Y: =504

@@ -43,8 +43,8 @@
         OnSuccess: =Back()
         SnapToColumns: =false
         Width: =644
-        X: =418
-        Y: =322
+        X: =427
+        Y: =286
         ZIndex: =5
 
         Subject_DataCard1 As typedDataCard.textualEditCard:
@@ -218,8 +218,8 @@
         Size: =20
         Text: ="submit"
         Width: =176
-        X: =418
-        Y: =657
+        X: =427
+        Y: =627
         ZIndex: =6
 
     Label8 As label:
