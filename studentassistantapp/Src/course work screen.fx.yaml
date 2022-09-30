@@ -10,7 +10,7 @@
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         BorderColor: =RGBA(32, 54, 71, 1)
-        Height: =423
+        Height: =125
         Items: =Coursework
         Layout: =Layout.Vertical
         TemplatePadding: =0
@@ -88,4 +88,16 @@
         X: =86
         Y: =38
         ZIndex: =3
+
+    Label18_1 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =48
+        Size: =20
+        Text: ="Course Outlines"
+        Width: =252
+        X: =64
+        Y: =285
+        ZIndex: =4
 
