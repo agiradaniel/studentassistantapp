@@ -8,61 +8,6 @@
         Width: =1366
         ZIndex: =1
 
-    "Gallery2 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Height: =125
-        Items: =Coursework
-        Layout: =Layout.Vertical
-        TemplatePadding: =0
-        TemplateSize: =96
-        Width: =932
-        X: =42
-        Y: =147
-        ZIndex: =1
-
-        Title7 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =20
-            Text: =ThisItem.Title
-            VerticalAlign: =VerticalAlign.Top
-            Width: =264
-            X: =32
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        Separator7 As rectangle:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Fill: =RGBA(32, 54, 71, 1)
-            Height: =1
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - 1
-            ZIndex: =3
-
-        Title7_1 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =20
-            Text: =ThisItem.Suggestions
-            VerticalAlign: =VerticalAlign.Top
-            Width: =604
-            X: =328
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
     Icon2_1 As icon.ChevronLeft:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(255, 255, 255, 1)
@@ -89,15 +34,93 @@
         Y: =38
         ZIndex: =3
 
-    Label18_1 As label:
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(0, 0, 0, 1)
+    Button1_4 As button:
+        AutoDisableOnSelect: =false
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =48
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(203, 102, 102, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =147
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =Navigate(Algorithms,ScreenTransition.Cover)
         Size: =20
-        Text: ="Course Outlines"
-        Width: =252
-        X: =64
-        Y: =285
+        Text: ="Algorithms"
+        Width: =220
+        X: =100
+        Y: =218
         ZIndex: =4
+
+    Button1_5 As button:
+        AutoDisableOnSelect: =false
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(203, 102, 102, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =146
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =
+        Size: =20
+        Text: ="Computer networks"
+        Width: =220
+        X: =561
+        Y: =219
+        ZIndex: =5
+
+    Button1_6 As button:
+        AutoDisableOnSelect: =false
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(203, 102, 102, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =147
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =
+        Size: =20
+        Text: ="Graphics design"
+        Width: =220
+        X: =1005
+        Y: =219
+        ZIndex: =6
+
+    Button1_7 As button:
+        AutoDisableOnSelect: =false
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(203, 102, 102, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =145
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =
+        Size: =20
+        Text: ="Calculus"
+        Width: =220
+        X: =92
+        Y: =495
+        ZIndex: =7
+
+    Button1_8 As button:
+        AutoDisableOnSelect: =false
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(203, 102, 102, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =145
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =
+        Size: =20
+        Text: ="Security"
+        Width: =220
+        X: =552
+        Y: =495
+        ZIndex: =8
 

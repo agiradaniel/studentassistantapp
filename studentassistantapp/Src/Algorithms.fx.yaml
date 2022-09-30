@@ -1,0 +1,278 @@
+Algorithms As screen:
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    Rectangle1_8 As rectangle:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Fill: =RGBA(203, 102, 102, 1)
+        Height: =126
+        Width: =1366
+        ZIndex: =1
+
+    Icon2_7 As icon.ChevronLeft:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(203, 102, 102, 1)
+        Height: =50
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Back(Transition)
+        Width: =44
+        X: =20
+        Y: =38
+        ZIndex: =2
+
+    Label18_1 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =50
+        Size: =30
+        Text: ="Algorithms"
+        Width: =252
+        X: =86
+        Y: =38
+        ZIndex: =3
+
+    Label2 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =50
+        Size: =18
+        Text: ="Introduction to AI"
+        Width: =248
+        X: =253
+        Y: =234
+        ZIndex: =4
+
+    Label2_1 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =50
+        Size: =18
+        Text: ="Intelligent agents"
+        Width: =248
+        X: =253
+        Y: =278
+        ZIndex: =5
+
+    Label2_2 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =50
+        Size: =18
+        Text: ="Problem Solving by Searching"
+        Width: =400
+        X: =252
+        Y: =318
+        ZIndex: =6
+
+    Label2_3 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =60
+        Size: =18
+        Text: ="Knowledge representation and logic"
+        Width: =444
+        X: =252
+        Y: =359
+        ZIndex: =7
+
+    Label2_4 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =45
+        Size: =18
+        Text: ="Introduction to Prolog"
+        Width: =280
+        X: =253
+        Y: =408
+        ZIndex: =8
+
+    Icon4_3 As icon.VerticalLine:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(203, 102, 102, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(203, 102, 102, 1)
+        Height: =642
+        Icon: =Icon.VerticalLine
+        Width: =10
+        X: =84
+        Y: =126
+        ZIndex: =9
+
+    Label2_5 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =52
+        Size: =25
+        Text: ="Course outline"
+        Width: =268
+        X: =157
+        Y: =171
+        ZIndex: =10
+
+    Label2_6 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week1"
+        Width: =120
+        X: =133
+        Y: =246
+        ZIndex: =11
+
+    Label2_7 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week2"
+        Width: =120
+        X: =133
+        Y: =284
+        ZIndex: =12
+
+    Label2_8 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week3"
+        Width: =120
+        X: =133
+        Y: =326
+        ZIndex: =13
+
+    Label2_9 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week4"
+        Width: =120
+        X: =133
+        Y: =370
+        ZIndex: =14
+
+    Label2_10 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week5"
+        Width: =120
+        X: =133
+        Y: =410
+        ZIndex: =15
+
+    Label2_11 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week6"
+        Width: =120
+        X: =133
+        Y: =462
+        ZIndex: =16
+
+    Label2_12 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week7"
+        Width: =120
+        X: =133
+        Y: =509
+        ZIndex: =17
+
+    Label2_13 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week8"
+        Width: =120
+        X: =133
+        Y: =559
+        ZIndex: =18
+
+    Label2_14 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =38
+        Size: =18
+        Text: ="Week9"
+        Width: =120
+        X: =133
+        Y: =608
+        ZIndex: =19
+
+    Label2_16 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =50
+        Size: =18
+        Text: ="Arithmetic in prolog"
+        Width: =248
+        X: =253
+        Y: =453
+        ZIndex: =21
+
+    Label2_17 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =50
+        Size: =18
+        Text: ="Lists"
+        Width: =248
+        X: =253
+        Y: =498
+        ZIndex: =22
+
+    Label2_18 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =50
+        Size: =18
+        Text: ="Input and output"
+        Width: =248
+        X: =253
+        Y: =549
+        ZIndex: =23
+
+    Label2_19 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =52
+        Size: =18
+        Text: ="Looping and Backtracking"
+        Width: =300
+        X: =253
+        Y: =598
+        ZIndex: =24
+
